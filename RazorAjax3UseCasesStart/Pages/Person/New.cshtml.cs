@@ -10,7 +10,7 @@ using SkysFormsDemo.Services;
 
 namespace SkysFormsDemo.Pages.Person
 {
-    [Authorize(Roles="Admin")]
+    //[Authorize(Roles="Admin")]
     [BindProperties]
     public class NewModel : PageModel
     {

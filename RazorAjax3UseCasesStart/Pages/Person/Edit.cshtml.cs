@@ -10,7 +10,7 @@ using SkysFormsDemo.Services;
 
 namespace SkysFormsDemo.Pages.Person
 {
-    [Authorize]
+    //[Authorize]
     [BindProperties]
     public class EditModel : PageModel
     {

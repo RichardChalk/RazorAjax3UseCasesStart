@@ -6,7 +6,7 @@ using SkysFormsDemo.Services;
 
 namespace SkysFormsDemo.Pages.Person
 {
-    [Authorize(Roles="Admin,Customer")]
+    //[Authorize(Roles="Admin,Customer")]
     public class IndexModel : PageModel
     {
         private readonly IPersonService _personService;
